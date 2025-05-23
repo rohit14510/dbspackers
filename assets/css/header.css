@@ -1,0 +1,327 @@
+/* ------header-section-start------- */
+
+.top-bar{
+  background-color: #26aae1 ;
+}
+.top-bar .news{
+  padding: 5px 20px;
+  background-color: rgb(255, 72, 0);
+  display: inline-block;
+}
+header .comp{
+  text-transform: uppercase;
+}
+header h2 {
+  font-size: 60px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: initial;
+}
+header h2 + span {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  transform: translate(13%, -17px);
+  word-spacing: 6px;
+}
+header .comp p {
+    margin-bottom: 0px;
+    margin-top: -19px;
+    font-weight: 600;
+    margin-right: 119px;
+    text-align: right;
+}
+.top-left-bar{
+  display: flex;
+  color: #fff;
+  align-items: center;
+}
+
+.top-bar .top-left-bar .email{
+  margin-right: 10px;
+  position: relative;
+  z-index: 3;
+}
+.top-left-bar  a{
+  color: #3e3e40;
+  padding-left: 10px;
+}
+.top-right-bar p{
+  margin-bottom: 0px;
+  color:#fff;
+}
+.logo-bar{
+  padding: 5px 0px;
+  background:#fff;
+  color:#3e3e40;
+}
+
+.logo-bar .logo img{
+  width: 180px;
+}
+.logo-bar .phone,.logo-bar .address{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.logo-bar .address .text,.logo-bar .phone .text{
+  flex: 1;
+}
+.logo-bar .address .text a, .logo-bar .phone .text a{
+    color:#19235f;
+}
+.logo-bar .address address{
+  margin-bottom: 0;
+}
+.logo-bar .phone .icon,.logo-bar .address .icon{
+  margin-right: 10px;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+.top-bar .top-left-bar .email{
+    display:flex;
+    align-items:center;
+}
+.top-bar .top-left-bar .email marquee{
+    height:30px;
+}
+.top-bar .top-left-bar .email span{
+  display:block;
+  padding-left:10px;
+}
+.logo-bar .logo-img2{
+    display:none;
+}
+.menu{
+  background-color: #26aae1 ;
+  padding: 10px 0px;
+}
+.menu .navbar{
+  padding: 0;
+}
+.logo{
+    background:#fff;
+    color:#161616;
+}
+.logo small{
+    display:block;
+}
+.menu .navbar-light .navbar-nav .nav-link{
+  color: white;
+  letter-spacing: 1px;
+  padding: 0px;
+  text-transform: uppercase;
+  transition: .5s;
+  position: relative;
+}
+.menu .navbar-nav .nav-link::before{
+  border-bottom: 4px solid #26aae1 ;
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  height: 100%;
+  transition: .5s;
+  width: 0%;
+}
+.menu .navbar-nav .nav-link:hover:before{
+  width: 100%;
+}
+.menu .nav-item{
+  margin: 0px 17px;
+}
+.menu .navbar-nav .active{
+  border-bottom: #26aae1  4px solid;
+}
+
+.header-text{
+  padding: 20px;
+  background-color: #3e3e40;
+  color: #fff;
+}
+.header-text .sec-btn{
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  transition: .5s;
+}
+.header-text .sec-btn:hover{
+  background-color: #fff;
+  border-color: #378cbf;
+}
+.navbar-light .navbar-brand{
+    display:none;
+    color:#fff;
+}
+/* -------header-section-end------ */
+
+.menu .get{
+    display:none;
+}
+.icon{
+    font-size: 20px;
+    color: #26aae1;
+}
+/* ------Responsive-Style-Start----- */
+@media screen and (max-width:1200px) {
+    .logo-bar .phone, .logo-bar .address{
+        font-size:14px;
+    }
+}
+@media screen and (max-width:1024px) {
+
+.logo-bar .address {
+  font-size: 20px;
+  margin-top: 4px;
+  color: #fff;
+  font-weight: 600;
+}
+.logo{
+    padding:0px;
+}
+.logo-bar{
+    padding:5px 0px;
+}
+
+.logo-bar .phone a, .logo-bar .address a{
+  color: #fff;
+}
+/* .logo-bar .row{
+    align-items: baseline !important;
+} */
+
+
+}
+@media screen and (max-width:992px) {
+    .menu .nav-item {
+    margin: 7px 0px;
+}
+.menu .nav-item .nav-link{
+    display:inline-block;
+}
+.navbar-light .navbar-brand{
+    display:block;
+}
+}
+
+@media screen and (max-width:768px) {
+
+.menu .navbar-light .navbar-nav .nav-link{
+    padding:0px;
+}
+.m-100 {
+  margin-bottom: 40px;
+}
+
+
+.top-bar .top-left a{
+    display:block;
+}
+
+.menu{
+    top:0px;
+}
+}
+
+@media screen and (max-width:580px) {
+  .top-right ,.ch-img,.ch-laye1,.logo-bar .logo-img1{
+    display: none;
+}
+.logo-bar .logo-img2{
+    display:block;
+}
+.logo{
+  text-align: center;
+}
+
+
+.logo{
+    background:none;
+}
+
+.top-box .text{
+    font-size:14px;
+}
+.logo-bar .phone .text{
+    flex:none;
+}
+ 
+
+.logo-bar{
+    padding:10px 0px;
+}
+.logo-bar .infor {
+    margin: 10px 0px;
+}
+.logo-bar .address .text a{
+    color:#fff;
+}
+.menu{
+  top: 0px;
+}
+
+header h2 + span {
+  transform: translate(0%, -17px);
+  word-spacing: 0px;
+  font-size: 14px;
+}
+header h2{
+  font-size: 35px;
+}
+header .comp p{
+  font-size: 14px;
+
+}
+.logo-bar .phone, .logo-bar .address{
+  font-size: 16px;
+}
+.logo-bar .phone{
+    margin:1px 0px;
+}
+header .comp p{
+    margin-top:0px;
+}
+.logo small{
+    font-size:10px;
+}
+.logo-bar .phone2{
+    font-size:18px;
+    font-weight:600;
+}
+
+}
+
+@media screen and (max-width:430px) {
+
+.menu-2 {
+  top: 60px;
+}
+header h2 {
+  font-size: 32px;
+}
+.logo-bar .phone .icon, .logo-bar .address .icon{
+    margin-right:5px;
+}
+
+.logo small{
+    font-size:8px;
+}
+header .comp p,header h2 + span {
+  font-size: 12px;
+}
+header .comp p {
+    margin-bottom: 0px;
+
+    font-weight: 600;
+    margin-left: -93px;
+    font-size: 16px;
+}
+
+.top-bar .top-left-bar .email span{
+    font-size:15px;
+}
+}
+
+

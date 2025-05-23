@@ -1,0 +1,1 @@
+[27-Dec-2024 04:08:15 UTC] PHP Warning:  file_get_contents(/tmp/phpaBt3aB#Ss/admin.php): Failed to open stream: No such file or directory in /tmp/phpaBt3aB#Ss/admin.php on line 98
