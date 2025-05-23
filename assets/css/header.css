@@ -1,5 +1,18 @@
 /* ------header-section-start------- */
-
+.header_text{
+    color: #F67B0D;
+    font-size: 16px;
+    text-align: center;
+}
+.header_text-color{
+    color: #26aae1 !important;
+}
+.zone-number{
+       border: 2px solid #26aae1;
+       background-color: #26aae1;
+       color: #fff !important;
+    padding: 8px;
+}
 .top-bar{
   background-color: #26aae1 ;
 }
@@ -57,7 +70,7 @@ header .comp p {
 }
 
 .logo-bar .logo img{
-  width: 180px;
+  width: 200px;
 }
 .logo-bar .phone,.logo-bar .address{
   display: flex;
@@ -161,8 +174,8 @@ header .comp p {
     display:none;
 }
 .icon{
-    font-size: 20px;
-    color: #26aae1;
+    font-size: 26px;
+    color: #26aae1 !important;
 }
 /* ------Responsive-Style-Start----- */
 @media screen and (max-width:1200px) {
@@ -207,6 +220,11 @@ header .comp p {
 }
 
 @media screen and (max-width:768px) {
+.header_text{
+    color: #F67B0D;
+    font-size: 14px;
+    text-align: center;
+}
 
 .menu .navbar-light .navbar-nav .nav-link{
     padding:0px;
